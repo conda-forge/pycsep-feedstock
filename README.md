@@ -5,11 +5,9 @@ Home: https://github.com/SCECCode/csep2
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pycsep-feedstock/blob/master/LICENSE.txt)
 
 Summary: Python tools from the Collaboratory for the Study of Earthquake Predictability
-
-
 
 Current build status
 ====================
