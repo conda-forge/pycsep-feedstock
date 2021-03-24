@@ -1,5 +1,5 @@
 {% set name = "pycsep" %}
-{% set version = "0.2.0" %}
+{% set version = "0.4.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pycsep-{{ version }}.tar.gz
-  sha256: 0ad683e02c6eec125360442c06bf80970b359e1a3a8204421ed222b194f340c8
+  sha256: 679c66696a60d03ccb808c0f3de5e0c2a41fca7f3c4af670fb9d992702a61d9d
 
 build:
   number: 0
@@ -40,11 +40,11 @@ test:
     - pip
 
 about:
-  home: https://github.com/SCECCode/csep2
+  home: https://github.com/SCECCode/pycsep
   summary: Python tools from the Collaboratory for the Study of Earthquake Predictability
   license: BSD-3-Clause
   license_file: LICENSE
 
 extra:
   recipe-maintainers:
-    - wsavran
+    - billtr0n
