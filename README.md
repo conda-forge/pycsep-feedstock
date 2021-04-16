@@ -36,6 +36,7 @@ Installing `pycsep` from the `conda-forge` channel can be achieved by adding `co
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `pycsep` can be installed with:
@@ -114,5 +115,5 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@billtr0n](https://github.com/billtr0n/)
+* [@wsavran](https://github.com/wsavran/)
 
