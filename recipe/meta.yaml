@@ -43,7 +43,7 @@ about:
   home: https://github.com/SCECCode/pycsep
   summary: Python tools from the Collaboratory for the Study of Earthquake Predictability
   license: BSD-3-Clause
-  license_file: LICENSE
+  license_file: LICENSE.txt
 
 extra:
   recipe-maintainers:
