@@ -22,7 +22,7 @@ requirements:
   run:
     - cartopy
     - matplotlib-base
-    - numpy<=1.21.5
+    - numpy <=1.21.5
     - obspy
     - pandas
     - pyproj
