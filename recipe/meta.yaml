@@ -1,5 +1,5 @@
 {% set name = "pycsep" %}
-{% set version = "0.6.0" %}
+{% set version = "0.6.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pycsep-{{ version }}.tar.gz
-  sha256: baec84198eaa6981a4cb4c321260085f81223c68cf0e578df1b772a18900fd12
+  sha256: f30bba679f2f3d141da87fd45870a4aaa22a4dbab33daa366caad694160d24af
 
 build:
   number: 0
@@ -22,13 +22,14 @@ requirements:
   run:
     - cartopy
     - matplotlib-base
-    - numpy <=1.21.5
+    - numpy 
     - obspy
     - pandas
     - pyproj
     - python >=3.7
     - python-dateutil
     - scipy
+    - shapely
     - mercantile
 
 test:
@@ -49,3 +50,4 @@ about:
 extra:
   recipe-maintainers:
     - wsavran
+    - pjmaechling
