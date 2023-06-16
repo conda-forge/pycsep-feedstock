@@ -1,11 +1,11 @@
-About pycsep
-============
+About pycsep-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pycsep-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/SCECCode/pycsep
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pycsep-feedstock/blob/main/LICENSE.txt)
 
 Summary: Python tools from the Collaboratory for the Study of Earthquake Predictability
 
@@ -143,5 +143,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@pjmaechling](https://github.com/pjmaechling/)
 * [@wsavran](https://github.com/wsavran/)
 
