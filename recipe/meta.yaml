@@ -1,5 +1,5 @@
 {% set name = "pycsep" %}
-{% set version = "0.7.0" %}
+{% set version = "0.8.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pycsep-{{ version }}.tar.gz
-  sha256: 883acac2fd14f207585b661acd945b48a1a8adca1d377a429260831da08f8f30
+  sha256: a56405b3cb9408e33a3f8494fe182b44eb89bbc77bca4439c359540840042831
 
 build:
   number: 0
