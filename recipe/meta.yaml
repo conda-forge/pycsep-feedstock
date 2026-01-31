@@ -13,12 +13,14 @@ source:
 build:
   number: 0
   noarch: python
-  script: {{ PYTHON }} -m pip install . -vv
+  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
 requirements:
   host:
     - pip
     - python {{ python_min }}
+    - setuptools
+    - wheel
   run:
     - cartopy
     - matplotlib-base
@@ -28,6 +30,7 @@ requirements:
     - pyproj
     - python >={{ python_min }}
     - python-dateutil
+    - rasterio
     - scipy
     - shapely
     - mercantile
@@ -43,10 +46,10 @@ test:
     - python {{ python_min }}
 
 about:
-  home: https://github.com/SCECCode/pycsep
+  home: https://github.com/csetesting/pycsep
   summary: Python tools from the Collaboratory for the Study of Earthquake Predictability
   license: BSD-3-Clause
-  license_file: LICENSE.txt
+  license_file: LICENSE
 
 extra:
   recipe-maintainers:
